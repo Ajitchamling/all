@@ -1,0 +1,467 @@
+/* media query */
+@media (max-width:420px){
+  body{
+    margin: 0px;
+    padding: 0px;
+    overflow-x: hidden;
+  }
+  
+  .image{
+    margin: 10px;
+    width: 20rem;
+}
+
+#showphoto {
+  background-color: rgb(10, 10, 10);
+  width: 100% ;/* Full width of the viewport */
+  overflow: hidden; /* Hides images when they move outside the viewport */
+  white-space: nowrap; /* Prevents the images from wrapping to the next line */
+  box-sizing: border-box;
+  height: 400px; /* Adjust the height according to your image size */
+  
+}
+    #style{
+      font-size: 20px;
+      padding: 20px;
+      position: relative;
+      left: -30vw; 
+    }
+    #quoteDiv{
+      width: 100%;
+      position: relative;
+      bottom: 25vh;
+      left: -1vw;
+    }
+
+    #quote{
+      font-size: 20px;
+    }
+
+    #more{
+      font-size: 12px;
+      color: white;
+    }
+    .sentances{
+      font-size: 10px;
+      padding: 20px;
+    }
+
+    .box{
+      width: 100%;
+      height: 20px;
+    }
+    .overlay{
+      padding: 20px;
+      height: 230px;
+      width: 100%;
+    }
+    .animationimage{
+      width: 100%;
+      height: 200px;
+    }
+    .carousel-item{
+      width: 100%;
+      height: 350px;
+    }
+    #carouseldiv{
+      margin: 1vh;
+  }
+
+ 
+  .box {
+    
+    justify-content: center;
+    align-items: center;
+    width: 100%px;
+    height: 20px;
+    padding: 20px;
+    overflow: hidden;
+    background-color: #060606;
+    text-align: center;
+    position: relative;
+    right: 47vw;
+    display: block;
+    margin: 20px;
+  }
+  }
+  @media (max-width:420px){
+    #logo{
+        width: 25%;
+        height: 25%;
+    }
+    #showphoto{
+        height: 60px;
+        width: 100%;
+        position: relative;
+        top: -130px;
+    }
+    .image{
+        width: 70px;
+        height: 40px;
+        padding: -10px;
+    }
+  }
+  @media (max-width:420px){
+    body{
+      margin: 0;
+      padding: 0;
+      overflow-x: hidden;
+    }
+    #myPic{
+        display: block;
+        
+      }
+    
+      .card-display{
+        display: block;
+       
+      }
+      .box {
+    
+        justify-content: center;
+        align-items: center;
+        width: 300px;
+        height: 320px;
+        padding: 20px;
+        overflow: hidden;
+        background-color: #bbb;
+        text-align: center;
+        position: relative;
+        right: 47vw;
+        top: -100px;
+      }
+  }
+
+  @media (max-width:420px){
+    body{
+      margin: 0;
+      padding: 0;
+      overflow-x: hidden;
+    }
+    .check{
+        font-size: 10px;
+    }
+    #carouseldiv{
+        padding: 10px;
+    }
+    .d-block w-100{
+        width: 100%px;
+        height: 50px;
+
+    }
+    .title{
+        width: 95vw;
+        height: 15vh;
+        background-image: url('./images/at.jpg');
+        position: absolute;
+        opacity: 0.5;
+        left: -0px;
+        color: white;
+    }
+    #us{
+        position: relative;
+        left: 10vh;
+        margin: 10px;
+        font-size:20px;
+    }
+    
+  }
+
+  @media (max-width:420px){
+    body{
+      margin: 0;
+      padding: 0;
+      overflow-x: hidden;
+    }
+    #mission1{
+        width: 200px;
+        height: 200px;
+    }
+    .section{
+        display: block;
+    }
+    #service{
+      width: 100%;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      flex-direction: column;
+      background-repeat: no-repeat;
+      background-attachment: fixed;
+      background-size: cover;
+  }
+  #huge{
+    width: 60px;
+    height: 15px;
+    background-color: #5d5d5d;
+    position: relative;
+    left: 50px;
+    padding: 1px;
+    cursor: pointer;
+    font-size: 10px;
+}
+  #our{
+    background-image: url('./images/servicesimage.gif');
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 100%;
+    height: 110px;
+    padding: 10px;
+    margin: 10px;
+    font-size: 20px;
+    color: rgb(240, 236, 236);
+    padding-left: 100px;
+}
+.div{
+  box-shadow: 10px 10px 10px rgba(0, 0, 0, 0.2);
+  width: 200px;
+  justify-content: center;
+  align-items: center;
+  background-color: rgb(8, 8, 8);
+  color: whitesmoke;
+  margin: 10px 0;
+  border-radius: 7px;
+  box-shadow: 0px 0px 20px gray;
+  padding: 5px;
+}
+  }
+  @media (max-width:420px){
+    .points{
+      font-size: 10px;
+    }
+    .lines{
+      font-size: 15px;
+      padding: 2px;
+    }
+  }
+
+  @media (max-width:420px){
+    body{
+      margin: 0;
+      padding: 0;
+      overflow-x: hidden;
+    }
+    .head{
+      text-align: center;
+      padding: 20px;
+      background-image: url('./images/about_us.jpg');
+      background-repeat: no-repeat;
+      background-size: cover;
+      height: 100px;
+      width: 100%;
+      color: white;
+      font-size: 20px;
+  }
+  #one{
+    display: block;
+    margin: 10px;
+}
+  .been{
+    margin-left: 6px;
+    position: relative;
+    bottom: 100px;
+    width: 200px; 
+    height: 30px; 
+    border-radius: 5px; 
+    text-align:center; 
+     
+} 
+
+#inputs{
+  width: 250px;
+  text-align: center;
+  margin: 2px;
+}
+#inputs:hover{
+  width: 240px;
+  box-shadow: 0px 0px 10px gray;
+  text-align: center;
+  margin: 3px;
+}
+
+#pchhetri{ 
+  width: 150px;
+  height: 250px; 
+  margin: 4px;
+} 
+
+#pchhetri:hover{ 
+  width: 100%px;
+  transform: scale(1.1);
+  box-shadow: 0px 0px 10px gray;
+  margin: 5px;
+} 
+.iconsandtext{ 
+  position: absolute; 
+  padding: 5px; 
+  font-size: 15px;
+
+} 
+
+#submit{ 
+  width: 100px; 
+  height: 30px; 
+  border-radius: 5px ; 
+  position: relative;
+  bottom: 100px;
+   
+}
+
+iframe{
+  width: 280px;
+  height: 250px;
+}
+  }
+
+  /* about us */
+  @media (max-width:420px){
+    body{
+      margin: 0;
+      padding: 0;
+      overflow-x: hidden;
+    }
+    .container{
+      display: block;
+    }
+    .content{
+      position: relative;
+      left: -30px;
+      width: 90vw;
+      top: -2vh;
+  }
+  .image-section{
+    display: block;
+    width: 35%;
+    border-radius: 5px;
+    position: relative;
+    left: -33vw;
+    top: 50vh;
+   
+}
+.section1{
+  position: relative;
+  left: 15px;
+}
+.container1{
+  display: block;
+ 
+}
+.content-section1{
+    width: 90vw;
+}
+.image-section1{
+  position: relative;
+  left: 15vw;
+  width: 200px;
+  height: 300px;
+}
+#vision1{
+  width: 200px;
+  height: 200px;
+}
+  }
+
+/* footer */
+@media (max-width:420px){
+  body{
+    margin: 0;
+    padding: 0;
+    overflow-x: hidden;
+  }
+  #footer{
+    background-color: #333;
+    display: block;
+    width:100%;
+    height: 260vh;
+    padding: 10px;
+}
+i{
+  font-size: 25px;
+  padding-top: 10px;
+}
+.colorsame{
+  font-size: 20px;
+  color: rgb(8, 246, 234); 
+  position: relative;
+}
+
+.end{
+  background-color: #0a0a0a;
+  width: 100%;
+  height: 50px;
+  
+}
+marquee{
+ padding: 15px;
+}
+
+}
+
+/* contact */
+@media (max-width:420px){
+  body{
+    margin: 0;
+    padding: 0;
+    overflow-x: hidden;
+  }
+  #contact{
+    width: 100%;
+    height: 230vh;
+    background-color: rgb(11, 11, 11);
+  }
+  #one{
+    display: block;
+    margin: 20px;
+  }
+  #pchhetri{
+    width: 100%;
+    height: 300px;
+  }
+  #pchhetri:hover{
+    transform: scale(1.1);
+    width: 85vw;
+    box-shadow: 0px 0px 10px white;
+  }
+  #inputs{
+    width: 100%;
+    padding: 20px;
+
+  }
+  #inputs:hover{
+    transform: scale(1.1);
+    width: 85vw;
+    height: 80vh;
+  }
+  #chhetri{
+    font-size: 15px;
+    padding: 10px;
+    
+  }
+  
+  .been{
+    position: relative;
+    bottom: 0px;
+    width: 200px; 
+    height: 5vh; 
+    border-radius: 5px; 
+    text-align:center; 
+    margin: 5px;
+    padding: 5px;    
+}
+  #textinside{
+    position: relative;
+    left: 13vw;
+    height: 100px;
+  }
+  #submit{
+    position: relative;
+    top: 20vh;
+    left: -25vw;
+  }
+  #ourmap{
+    margin: 10vh;
+  }
+  p{
+    font-size: 20px;
+  }
+}
